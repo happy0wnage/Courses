@@ -1,0 +1,333 @@
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+div.all {
+    margin: 0 auto;
+    width: 1050px;
+}
+
+div.all div.main {
+    float: left;
+}
+
+img.radial {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+table.messages {
+    width: 621px;
+    margin: 20px auto 0;
+    vertical-align: top;
+}
+
+td.image-login {
+    width: 50px;
+    padding: 5px;
+    vertical-align: top;
+    text-align: center;
+}
+
+td.message-text {
+    vertical-align: top;
+    width: 400px;
+    padding: 10px;
+}
+
+#msg:hover tr {
+    background-color: rgb(221, 72, 20);
+    cursor: pointer;
+}
+
+td.message-date {
+    width: 60px;
+    text-align: center;
+    vertical-align: top;
+}
+
+div.main {
+    width: 701px;
+    background-color: #ffffff;
+    padding: 10px 40px 40px;
+    margin: auto auto 20px;
+}
+
+div.profile-image {
+    float: left;
+    width: 200px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0 10px 0 0;
+}
+
+div.profile-info {
+    float: right;
+    width: 471px;
+    background-color: #ffffff;
+    margin: 0 0 0 10px;
+    padding: 20px;
+}
+
+div#null {
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+    padding: 0;
+}
+
+div.container {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 10px 0 10px;
+    margin-bottom: 20px;
+}
+
+div.right-block {
+    float: right;
+    width: 320px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    padding: 20px 40px 40px;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.style-two {
+    height: 0.5px;
+}
+
+div.top-settings {
+    display: block;
+}
+
+div.author {
+    color: #8d8d8d;
+    font: 12px sans-serif;
+    float: left;
+    width: 390px;
+    height: 20px;
+}
+
+div.right-news {
+    text-align: right;
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 260px;
+    height: 20px;
+}
+
+div.elements {
+    padding: 10px 30px 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    line-height: 20px;
+    margin-bottom: 20px;
+    width: 691px;
+    position: relative;
+}
+
+div.settings {
+    /*background-color: #2196f3;*/
+    width: 701px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+div.course-nav {
+    background-color: #ffffff;
+    padding: 0 20px 30px 20px;
+
+}
+
+#cursor:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#small {
+    width: 55px;
+}
+
+#smaller {
+    width: 80px;
+}
+
+#small:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#nick {
+    width: 170px;
+}
+
+#nick:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#title {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 28px !important;
+    line-height: 1.1;
+    font-family: 'HattoriHanzoLight', Tahoma;
+    text-shadow: 0px 2px rgba(255, 255, 255, 0.25);
+}
+
+
+
+#center {
+    margin: auto;
+}
+
+div.deleteNews {
+    padding: 5px 10px;
+    background-color: rgb(221, 72, 20);
+    color: #fff;
+    margin-top: 20px;
+    margin-left: -4px;
+    cursor: pointer;
+    display: inline-block;
+    cursor: pointer;
+}
+
+div.deleteNews:hover {
+    padding: 5px 40px;
+    background-color: #444444;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#fixed-size {
+    width: 120px;
+}
+
+textarea.mytext-area {
+    width: 100%;
+    margin: auto;
+    border: 1px solid beige;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div.write-message {
+    width: 621px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#profile-image {
+    width: 240px;
+    height: 240px;
+}
+
+div.img {
+    position: relative;
+}
+
+#td-active:hover {
+    cursor: pointer;
+}
+
+div.img:hover div.change-image {
+    position : absolute;
+    display: block;
+    margin: auto;
+}
+
+div.change-image {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 80%;
+    position: absolute;
+    background-color: rgb(221, 72, 20);
+    display: none;
+    margin: auto;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+
+#max-width {
+    width: 215px;
+}
+
+#right-action {
+    width: 100px;
+}
+
+#max-height{
+    height: 300px;
+}
+
+#name-brd {
+    width: 200px;
+    padding: 0;
+    text-align: left;
+}
+
+#abs {
+    width: 40px;
+    height: 40px;
+    align: absmiddle;
+}
+
+#middle {
+    text-align: center;
+    width: 220px;
+}
+
+#brd {
+    width: 280px;
+}
+
+#block {
+    text-align: center;
+    width: 80px;
+}
+
+#active {
+    background-color: rgb(221, 72, 20);
+    color: #ffffff;
+}
+
+
+#active h5{
+    color: #ffffff;
+
+}
+
+#t-area {
+    height: 240px;
+}
+
+#left {
+    text-align: left;
+}

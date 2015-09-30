@@ -1,0 +1,8 @@
+*/web/META-INF/context.xml
+
+.idea/*
+out/*
+target/*
+
+*.iml
+*.txt
